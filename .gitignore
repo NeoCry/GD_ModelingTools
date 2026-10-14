@@ -1,0 +1,19 @@
+# Godot generated caches
+.godot/
+.import/
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs, temporary files and local secrets
+*.log
+*.tmp
+*.bak
+*~
+.env
+.env.*
+!.env.example

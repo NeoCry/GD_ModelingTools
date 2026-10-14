@@ -1,0 +1,17 @@
+[configuration]
+entry_symbol = "modeling_tool_library_init"
+compatibility_minimum = "4.4"
+reloadable = false
+
+[libraries]
+windows.debug.x86_64 = "res://addons/modeling_tool/bin/modeling_tool.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://addons/modeling_tool/bin/modeling_tool.windows.template_release.x86_64.dll"
+linux.debug.x86_64 = "res://addons/modeling_tool/bin/modeling_tool.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://addons/modeling_tool/bin/modeling_tool.linux.template_release.x86_64.so"
+macos.debug = "res://addons/modeling_tool/bin/modeling_tool.macos.template_debug.framework"
+macos.release = "res://addons/modeling_tool/bin/modeling_tool.macos.template_release.framework"
+
+[icons]
+EditableMesh = "res://addons/modeling_tool/icons/editable_mesh.svg"
+PolyMesh = "res://addons/modeling_tool/icons/poly_mesh.svg"
+ArrayModifier = "res://addons/modeling_tool/icons/array_modifier.svg"

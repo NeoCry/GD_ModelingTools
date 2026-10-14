@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dlqrb7yg6tath"]
+
+[resource]
+resource_name = "Blockout Gray"
+albedo_color = Color(0.45840502, 0.45840508, 0.45840502, 1)
+uv1_triplanar = true
+uv1_world_triplanar = true
